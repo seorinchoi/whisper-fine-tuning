@@ -26,8 +26,8 @@
 ## 모델 & 학습 설정
 
 * **베이스 모델**: `openai/whisper-small`
-* **학습 스킴**: step 기반 학습, `eval_steps=500`
-* **얼리 스토핑**: 사용(검증 **eval loss** 기준)
+* **학습 전략**: step 기반 학습, `eval_steps=500`
+* **Early Stop**: 사용(검증 **eval loss** 기준)
 * **베스트 체크포인트**: `./whisper-train-1029/checkpoint-12000`
 
 ### 로그 요약
