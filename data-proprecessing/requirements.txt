@@ -1,0 +1,23 @@
+# Whisper + HuggingFace 관련
+transformers==4.45.1
+datasets==3.0.1
+torchaudio
+torch
+soundfile
+hf-transfer
+
+# 오디오 전처리
+librosa==0.10.2
+numpy
+scipy
+
+# 시각화
+matplotlib
+seaborn
+
+# 유틸리티
+tqdm
+pandas
+
+# 파일 처리
+gdown  # (Google Drive 다운로드용)
