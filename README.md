@@ -19,7 +19,6 @@
   * 분할: **화자 단위** train/validation 분리(데이터 누수 방지)
   * 토크나이저: Whisper 기본 ko tokenizer
 
-> 공개 배포 시 AI-Hub 라이선스/이용약관을 준수하세요.
 
 ---
 
