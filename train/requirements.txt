@@ -1,0 +1,30 @@
+# 🔹 Core ML / GPU
+torch>=2.2.0
+torchaudio>=2.2.0
+accelerate>=0.31.0
+
+# 🔹 Hugging Face Transformers / Datasets / Evaluate
+transformers==4.48.0 #여기선 에러 안남 꼭 !! 버전 맞출것
+datasets>=2.19.0
+evaluate>=0.4.1
+huggingface_hub>=0.23.0
+hf-transfer
+
+# 🔹 Audio Processing
+librosa>=0.10.1
+soundfile>=0.12.1
+audioread>=3.0.1
+ffmpeg-python>=0.2.0
+
+# 🔹 Utilities / Progress
+tqdm>=4.66.0
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+
+# 🔹 Visualization / Logging
+tensorboard>=2.17.0
+
+# 🔹 Locale Fix (UTF-8 Encoding)
+python-decouple>=3.8
+jiwer
